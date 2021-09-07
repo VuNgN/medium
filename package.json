@@ -1,0 +1,35 @@
+{
+  "name": "medium",
+  "version": "1.0.0",
+  "description": "this is first demo of expressJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch  src/scss/style.scss --output src/public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocvu229/medium_expressJs.git"
+  },
+  "keywords": [
+    "expressjs",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Vu Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngocvu229/medium_expressJs/issues"
+  },
+  "homepage": "https://github.com/ngocvu229/medium_expressJs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
