@@ -95,3 +95,50 @@ div .header-content__description {
   right: 0;
   top: 0;
   font-size: 1.2rem; }
+
+.homepage__topic {
+  border-bottom: 1px solid #E6E6E6; }
+
+.homepage-topic__header {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 5px; }
+
+.home-topic__list {
+  margin-left: -3px;
+  cursor: default; }
+
+.btn.home-topic__item {
+  margin: 4px 3px;
+  color: #757575;
+  background-color: white;
+  border-color: #E6E6E6; }
+
+.btn.home-topic__item:hover {
+  color: #757575;
+  background-color: white; }
+
+.home-topic__link {
+  display: block;
+  text-decoration: none;
+  color: #218C1E;
+  font-size: 0.9rem;
+  margin: 20px 0; }
+
+.home-topic__link:hover {
+  color: #218C1E; }
+
+.homepage__footer {
+  margin-top: 15px;
+  margin-left: -15px;
+  cursor: default; }
+
+.homepage-footer__item-link {
+  text-decoration: none;
+  color: #757575;
+  display: inline-block;
+  margin: 5px 15px;
+  font-size: 0.9rem; }
+
+.homepage-footer__item-link:hover {
+  color: #757575; }
